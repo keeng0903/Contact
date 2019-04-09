@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditContactsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X">
+        </Button>
+        <TextView
+            android:id="@+id/tv_createdat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Contact"
+            android:textSize="40dp"
+            android:layout_centerInParent="true"
+            />
+        <Button
+            android:id="@+id/btn_V"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="√"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/img_V"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+    <EditText
+        android:id="@+id/etd_fn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:textSize="40dp"/>
+    <EditText
+        android:id="@+id/edt_com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comany"
+        android:textSize="40dp"
+        />
+    <EditText
+        android:id="@+id/edt_tit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:hint="Title"/>
+    <EditText
+        android:id="@+id/edt_mo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:textSize="40dp"/>
+    <EditText
+        android:id="@+id/edt_em"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Created at 12/03/2019"
+        android:textSize="30dp"
+        android:gravity="bottom"/>
+
+
+</LinearLayout>
